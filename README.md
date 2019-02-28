@@ -16,4 +16,4 @@
 
 -Se organizó esquemáticamente cada uno de los archivos que hacen parte de la página web dentro de carpetas para generar orden
 
--El nuevo proyecto fue subido a GITHUB Para la posterior modificación de todo el equipo de trabajo
+-El nuevo proyecto fue subido a GITHUB Para la modificación de todo el equipo de trabajo en páginas especificas 
