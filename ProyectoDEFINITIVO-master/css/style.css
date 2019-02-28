@@ -1,0 +1,331 @@
+.divInterno{
+  margin: 5%;
+}
+/* default for mobile (Mobile first) */
+  .imagen-adaptativa1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+    width: 40%;
+  }
+
+  /* Tablet Portrait size to standard 960 (devices and browsers) */
+  @media (max-width: 959px) {
+    .imagen-adaptativa1 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 50%;
+      width:50%;
+    }
+  }
+
+  /* All Mobile Sizes (devices and browser) */
+  @media (max-width: 767px) {
+    .imagen-adaptativa1 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 65%;
+      width: 65%;
+    }
+  }
+
+  /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+  @media (max-width: 767px) {
+    .imagen-adaptativa1 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 70%;
+      width: 70%;
+    }
+  }
+
+  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+  @media (max-width: 576px) {
+    .imagen-adaptativa1 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 80%;
+      width: 80%;
+    }
+  }
+
+    /* predeterminada para moviles (Mobile first) */
+  .imagen-adaptativa2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 50%;
+  }
+
+  /* Smaller than standard 960 (devices and browsers) */
+  @media (max-width: 959px) {
+    .imagen-adaptativa2 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 55%;
+      width: 55%;
+    }
+  }
+
+  /* Tablet Portrait size to standard 960 (devices and browsers) */
+  @media (min-width: 769px) and (max-width: 959px) {
+    .imagen-adaptativa2 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 60%;
+      width: 60%;
+    }
+  }
+
+  /* All Mobile Sizes (devices and browser) */
+  @media (max-width: 767px) {
+    .imagen-adaptativa2 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 65%;
+      width: 65%;
+    }
+  }
+
+  /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+  @media (min-width: 577px) and (max-width: 767px) {
+    .imagen-adaptativa2 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 70%;
+      width: 70%;
+    }
+  }
+
+  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+  @media (max-width: 576px) {
+    .imagen-adaptativa2 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 60%;
+      width: 60%;
+    }
+  }
+
+
+  /* predeterminada para moviles (Mobile first) */
+  .imagen-adaptativa3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 77%;
+    width: 77%;
+  }
+
+  /* Smaller than standard 960 (devices and browsers) */
+  @media (max-width: 959px) {
+    .imagen-adaptativa3 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 55%;
+      width: 55%;
+    }
+  }
+
+  /* Tablet Portrait size to standard 960 (devices and browsers) */
+  @media (min-width: 769px) and (max-width: 959px) {
+    .imagen-adaptativa3 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 60%;
+      width: 60%;
+    }
+  }
+
+  /* All Mobile Sizes (devices and browser) */
+  @media (max-width: 767px) {
+    .imagen-adaptativa3 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 65%;
+      width: 65%;
+    }
+  }
+
+  /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+  @media (min-width: 577px) and (max-width: 767px) {
+    .imagen-adaptativa3 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 70%;
+      width: 70%;
+    }
+  }
+
+  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+  @media (max-width: 576px) {
+    .imagen-adaptativa3 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 90%;
+      width: 90%;
+    }
+  }
+    /* predeterminada para moviles (Mobile first) */
+  .imagen-adaptativa4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25%;
+    width: 25%;
+  }
+
+  /* Smaller than standard 960 (devices and browsers) */
+  @media (max-width: 959px) {
+    .imagen-adaptativa4 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 55%;
+      width: 55%;
+    }
+  }
+
+  /* Tablet Portrait size to standard 960 (devices and browsers) */
+  @media (min-width: 769px) and (max-width: 959px) {
+    .imagen-adaptativa4 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 60%;
+      width: 60%;
+    }
+  }
+
+  /* All Mobile Sizes (devices and browser) */
+  @media (max-width: 767px) {
+    .imagen-adaptativa4 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 65%;
+      width: 65%;
+    }
+  }
+
+  /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+  @media (min-width: 577px) and (max-width: 767px) {
+    .imagen-adaptativa4 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 70%;
+      width: 70%;
+    }
+  }
+
+  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+  @media (max-width: 576px) {
+    .imagen-adaptativa4 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 30%;
+      width: 30%;
+    }
+  }
+
+#slides{
+  color: grey;
+  background-color: grey !important;
+}
+
+.carousel{
+  color: grey;
+  background-color: grey !important;
+}
+.carousel .item{
+  color: grey;
+  background-color: grey;
+}
+
+
+
+
+
+
+
+/* Otras funciones debajo de este comentario */
+#first{
+    margin: 10%;
+    text-align: center;
+    background-color: rgba(0,200,200,0.5);
+}
+
+.parrafo {
+    margin: 10px;
+}
+
+/*Con esta función se le coloca negrilla a los títulos e itálica*/
+.titleONE{
+    font-weight:bold;
+    font-style: italic;
+    color:white;
+}
+
+/* Esta función permite colocarle el fondo a la página web y el color blanco al texto dentro de él*/
+.principales{
+    background-image: url(../Images/foto_domotica.jpg);
+    background-size: 100%;
+    color:white;
+    background-position: top;
+}
+
+
+
+.contact-form {
+    background-color: white;
+}
+
+.info{
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    color:black;
+}
+
+h2{
+    text-align: center;
+}
+img{
+    height: 400px;
+    width: 450px;
+}
+
+#divTeamWork{
+    margin: 5%;
+    text-align: center;
+    background-color: rgba(255, 255, 255,0.6);
+}
+
+#grupoTrabajo {
+    margin: 10px;
+}
+
+.integrantes {
+    margin: 0 10% 10px 10%;
+    display: block;
+    color: black;
+}
