@@ -5,5 +5,5 @@ Inicio de página web
 
 Se enlazo con Bootstrap 4.3.1 
 
-Se hizo un nav bar de External content 
+Se hizo un navbar de External content 
 
