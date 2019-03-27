@@ -14,8 +14,8 @@ function validarCamposVacios(x,y,z) {
 /*Función para validar que no se ingresen valores alfanuméricos
 sino únicamente letras en el formulario en la sección de Nombre*/
 function validarNombre(x) {
-    let comp = /\d/;
-    if (x.match(comp)>0) {
+    let comp = /\d/g;
+    if (x.match(comp).length>0) {
         return true;
     }
     return false;
