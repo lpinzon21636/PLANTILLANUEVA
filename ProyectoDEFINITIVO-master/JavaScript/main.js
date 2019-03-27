@@ -11,6 +11,15 @@ function validarCamposVacios(x,y,z) {
     return false;
 }
 
+/*Función para validar que no se ingresen valores alfanuméricos
+sino únicamente letras en el formulario en la sección de Nombre*/
+function validarNombre(x) {
+    let comp = /\d/;
+    if (x.match(comp)>0) {
+        return true;
+    }
+    return false;
+}
 
 /*Función que recibe los datos y confirma que no estén vacíos
 de estarlo genera una alerta
@@ -23,6 +32,9 @@ function RecibirDatos() {
 
     if (validarCamposVacios(nom,corr,contenido)) {
         window.alert("Campos vacios");
+    }
+    if (validarNombre(nom)){
+        window.alert("No ingrese datos alfanuméricos en el nombre");
     }
 }
 
