@@ -15,7 +15,8 @@ function validarCamposVacios(x,y,z) {
 sino únicamente letras en el formulario en la sección de Nombre*/
 function validarNombre(x) {
     let comp = /\d/g;
-    if (x.match(comp).length>0) {
+
+    if (x.match(comp).length >0) {
         return true;
     }
     return false;
