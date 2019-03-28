@@ -64,3 +64,15 @@ function RecibirDatos() {
 
 /*activador de eventos del formulario con el boton*/
 btnEnviarFormulario.addEventListener('click',RecibirDatos);
+
+
+function submitform()
+{
+     var theForm = document.forms['formulario'];
+     if (!theForm) {
+         theForm = document.formulario;
+     }
+     theForm.submit();
+}
+
+
