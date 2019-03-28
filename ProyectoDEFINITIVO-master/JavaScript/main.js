@@ -16,11 +16,15 @@ sino únicamente letras en el formulario en la sección de Nombre*/
 function validarNombre(x) {
     let comp = /\d/g;
 
-    if (x.match(comp).length >0) {
+    try {
+        if (x.match(comp).length >0) {
         return true;
+        }
+    } catch (error) {
+        return false;
     }
-    return false;
 }
+
 
 /*Función que recibe los datos y confirma que no estén vacíos
 de estarlo genera una alerta
