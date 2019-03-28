@@ -20,11 +20,20 @@ function validarNombre(x) {
         if (x.match(comp).length >0) {
         return true;
         }
-    } catch (error) {
+    } catch (e) {
         return false;
     }
 }
 
+function validarCorreo(x){
+    let ar= /@/;
+    let terminal = /.com/;
+
+    if (ar.test(x) && terminal.test(x)) {
+        return true;
+    }
+    return false;
+}
 
 /*Función que recibe los datos y confirma que no estén vacíos
 de estarlo genera una alerta
@@ -37,9 +46,17 @@ function RecibirDatos() {
 
     if (validarCamposVacios(nom,corr,contenido)) {
         window.alert("Campos vacios");
+    } else {
+        location.reload();
+        console.log("Nombre: "+nom);
+        console.log("Correo: "+corr);
+        console.log("Mensaje: "+contenido);
     }
     if (validarNombre(nom)){
         window.alert("No ingrese datos alfanuméricos en el nombre");
+    }
+    if (!validarCorreo(corr)){
+        window.alert("Ingrese una cuenta de correo válida");
     }
 }
 
