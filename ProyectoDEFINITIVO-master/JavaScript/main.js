@@ -47,7 +47,7 @@ function RecibirDatos() {
 
     /*Esta condición valida que todos los datos estén ingresados*/
     if (validarCamposVacios(nom,corr,contenido)) {
-        window.alert("Campos vacios");
+        window.alert("No se permiten campos vacios");
     } else {
         location.reload();
         console.log("Nombre: "+nom);
