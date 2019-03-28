@@ -25,6 +25,7 @@ function validarNombre(x) {
     }
 }
 
+/*Función para validar el correo*/
 function validarCorreo(x){
     let ar= /@/;
     let terminal = /.com/;
@@ -44,6 +45,7 @@ function RecibirDatos() {
     let corr= document.getElementById("correo").value;
     let contenido = document.getElementById("contenido").value;
 
+    /*Esta condición valida que todos los datos estén ingresados*/
     if (validarCamposVacios(nom,corr,contenido)) {
         window.alert("Campos vacios");
     } else {
