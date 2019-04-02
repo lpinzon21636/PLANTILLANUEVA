@@ -290,7 +290,16 @@
     background-position: top;
 }
 
-
+#enviarFormulario{
+    background-color: #ff5c00;
+    position: relative;
+    text-shadow:0 1px 1px rgba(0, 0, 0, 0.25);
+    border-top: rgba(255, 255, 255, .2) 1px solid;
+    padding:0.6em 1.3em;
+    line-height:1em;
+    text-align:center;
+    white-space: nowrap;
+}
 
 .contact-form {
     background-color: white;
@@ -315,8 +324,9 @@ h2{
 
 #boton_domotica{
    text-align: center;
-    font-size: 30px;
+    font-size: 80px;
     font-weight: bolder;
+    color: darkgreen;
 }
 
 img{
