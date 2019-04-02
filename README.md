@@ -6,7 +6,7 @@ Actualizaciones y entrega para el 02 de abril
 
 -Fueron agregadas nuevas secciones
 
--Se agregó un NAVBAR que permite facilidad en la navegación entre páginas sin necesidad de volver al index
+-Se agregó un NAVBAR que permite facilidad en la navegación entre páginas sin necesidad de volver al index.
 
 -Fueron comentadas cada una de las diferentes modificaciones que se realizaron en la nueva página web
 
