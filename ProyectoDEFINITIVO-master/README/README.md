@@ -1,5 +1,7 @@
 >README
 
+VERSIÓN 1.0
+
 -Fueron mejoradas las secciones existentes en el prototipo de la página.
 
 -Se agregaron nuevas secciones.
@@ -17,3 +19,14 @@
 -Se organizó esquemáticamente cada uno de los archivos que hacen parte de la página web dentro de carpetas para generar orden.
 
 -El nuevo proyecto fue subido a GITHUB Para la posterior modificación de todo el equipo de trabajo.
+
+VERSIÓN 2.0
+
+- Se agregaron nuevas funciones en el main.js para validar la información ingresada en el formulario. Entre ellas: no permitir
+los campos vacíos, no permitir datos númericos en nombre, ingresar un correo válido.
+
+- Se añadieron etiquetas meta en el archivo index dada la retroalimentación del docente.
+
+- Se creo un nuevo módulo denominado index, en donde aparecera el mockup o simulación del sistema.
+
+-Se documentaron las funciones de JavaScript en el formato correspondiente.
