@@ -30,3 +30,5 @@ los campos vacíos, no permitir datos númericos en nombre, ingresar un correo v
 - Se creo un nuevo módulo denominado index, en donde aparecera el mockup o simulación del sistema.
 
 -Se documentaron las funciones de JavaScript en el formato correspondiente.
+
+-Se creo otro archivo JavaScript para realizar las funciones del botón del módulo beta.
