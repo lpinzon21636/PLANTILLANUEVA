@@ -94,13 +94,4 @@ function RecibirDatos() {
 btnEnviarFormulario.addEventListener('click',RecibirDatos);
 
 
-function submitform()
-{
-     var theForm = document.forms['formulario'];
-     if (!theForm) {
-         theForm = document.formulario;
-     }
-     theForm.submit();
-}
-
 
