@@ -2,7 +2,7 @@
 * Conexión con la imagen para cambiar el botón al momento de ser
 * oprimido
 */
-var Interruptor= document.getElementById('interruptor');
+var interruptor= document.getElementById('interruptor');
 
 estado = document.getElementById('estado');
 
