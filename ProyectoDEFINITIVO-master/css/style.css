@@ -329,3 +329,18 @@ img{
     display: block;
     color: black;
 }
+
+.apagado {
+    background-color: black;
+    border-radius: 100%;
+    width: 30%;
+    transition:ease;
+    transition-duration: 0.5s;
+}
+.encendido {
+    background-color: yellow;
+    border-radius: 100%;
+    width: 20%;
+    transition:ease;
+    transition-duration: 0.5s;
+}
