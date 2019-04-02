@@ -2,7 +2,7 @@
 
 Actualizaciones y entrega para el 02 de abril
 
--Fueron mejoradas las secciones existentes en el prototipo de la página
+-Se hicieron mejoras  en las secciones existentes en el prototipo de la página
 
 -fueron agregadas nuevas secciones
 
