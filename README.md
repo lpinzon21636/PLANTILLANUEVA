@@ -18,4 +18,4 @@ Actualizaciones y entrega para el 02 de abril
 
 -Se organizó esquemáticamente cada uno de los archivos que hacen parte de la página web dentro de carpetas para generar orden
 
--El nuevo proyecto fue subido a GITHUB para la modificación de todo el equipo de trabajo en páginas especificas 
+-El nuevo proyecto fue subido y actualizado en GITHUB para la modificación de todo el equipo de trabajo en páginas especificas 
