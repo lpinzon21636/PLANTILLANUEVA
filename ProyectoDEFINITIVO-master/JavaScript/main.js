@@ -1,3 +1,4 @@
+window.alert("conectado");
 /**
 * @fileoverview Librería javascript página EcoDomótica
 * @author Natalia Peñaranda, Laura Daniela Pinzón, Santiago Pérez
@@ -92,6 +93,4 @@ function RecibirDatos() {
 * la instrucción
 */
 btnEnviarFormulario.addEventListener('click',RecibirDatos);
-
-
 
