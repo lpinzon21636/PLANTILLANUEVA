@@ -264,8 +264,6 @@
 
 
 
-
-
 /* Otras funciones debajo de este comentario */
 #first{
     margin: 10%;
@@ -304,11 +302,23 @@
 h1{
     text-align: center;
     color:black;
+    font-family: "Palatino", sans-serif;
+    font-weight: bolder;
+    font-size: 55px;
 }
 
 h2{
     text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
 }
+
+#boton_domotica{
+   text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
 img{
     height: 400px;
     width: 450px;

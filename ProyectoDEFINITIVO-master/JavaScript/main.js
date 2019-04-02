@@ -1,4 +1,3 @@
-
 window.alert("conectado");
 /**
 * @fileoverview Librería javascript página EcoDomótica
