@@ -1,18 +1,38 @@
-/*Botón para enviar formulario*/
+/**
+* @fileoverview Librería javascript página EcoDomótica
+* @author Natalia Peñaranda, Laura Daniela Pinzón, Santiago Pérez
+* @version 1.0
+*
+*/
+
+/**
+* Conexión con el botón para enviar datos desde el formulario
+* de la página
+*/
 btnEnviarFormulario = document.getElementById("enviarFormulario");
 
 
-/*Función para validar que los campos del formulario no estén vacíos*/
+/**
+* Validar que los campos del formulario no estén vacíos
+* @param {String} x - Variable uno
+* @param {String} y - Variable dos
+* @param {String} z - Variable tres
+* @returns {Boolean} Retorna true si la función está vacía
+*/
 function validarCamposVacios(x,y,z) {
-    /*Retorna true si la función está vacía*/
     if (x=="" || y=="" || z==""){
         return true;
     }
     return false;
 }
 
-/*Función para validar que no se ingresen valores alfanuméricos
-sino únicamente letras en el formulario en la sección de Nombre*/
+/**
+* Validar que no se ingresen valores alfanuméricos
+* sino únicamente letras en el formulario en la sección de Nombre
+* @param {String} x - Entrada del valor Nombre
+* @returns {Boolean} Retorna true si el nombre no es válido
+* Tiene en cuenta si se genera un error y retorna false
+*/
 function validarNombre(x) {
     let comp = /\d/g;
 
@@ -25,7 +45,11 @@ function validarNombre(x) {
     }
 }
 
-/*Función para validar el correo*/
+/**
+* Validar el correo
+* @param {String} x - Entrada del valor Correo
+* @returns {Boolean} Retorna true si el correo es válido
+*/
 function validarCorreo(x){
     let ar= /@/;
     let terminal = /.com/;
@@ -36,8 +60,10 @@ function validarCorreo(x){
     return false;
 }
 
-/*Función que recibe los datos y confirma que no estén vacíos
-de estarlo genera una alerta
+/**
+* Recibe los datos y confirma que no estén vacíos
+* de estarlo genera una alerta
+* Es ejecutada cuando el botón ha sido oprimido en la página web
 */
 function RecibirDatos() {
     event.preventDefault();
@@ -45,7 +71,6 @@ function RecibirDatos() {
     let corr= document.getElementById("correo").value;
     let contenido = document.getElementById("contenido").value;
 
-    /*Esta condición valida que todos los datos estén ingresados*/
     if (validarCamposVacios(nom,corr,contenido)) {
         window.alert("No se permiten campos vacios");
     } else {
@@ -62,7 +87,10 @@ function RecibirDatos() {
     }
 }
 
-/*activador de eventos del formulario con el boton*/
+/**
+* Invocar la función de RecibirDatos() una vez el botón recibió
+* la instrucción
+*/
 btnEnviarFormulario.addEventListener('click',RecibirDatos);
 
 
