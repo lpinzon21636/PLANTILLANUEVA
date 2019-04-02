@@ -14,7 +14,7 @@ Actualizaciones y entrega para el 02 de abril
 
 -Fue agregado el nuevo README con los avances realizados hasta el momento
 
--Se agregó la licencia del MIT perteneciente al proyecto original
+-Se agregó la licencia del MIT la cual pertenece al proyecto original
 
 -Se organizó esquemáticamente cada uno de los archivos que hacen parte de la página web dentro de carpetas para generar orden
 
