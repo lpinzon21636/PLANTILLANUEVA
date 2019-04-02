@@ -329,6 +329,13 @@ h2{
     color: darkgreen;
 }
 
+.domotica_titulos{
+    text-align: left;
+    color:darkblue;
+    font-family: "Palatino", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
 img{
     height: 400px;
     width: 450px;
