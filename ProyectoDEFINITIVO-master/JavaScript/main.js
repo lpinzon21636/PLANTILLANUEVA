@@ -74,7 +74,7 @@ function RecibirDatos() {
     if (validarCamposVacios(nom,corr,contenido)) {
         window.alert("No se permiten campos vacios");
     } else {
-        location.reload();
+
         console.log("Nombre: "+nom);
         console.log("Correo: "+corr);
         console.log("Mensaje: "+contenido);
