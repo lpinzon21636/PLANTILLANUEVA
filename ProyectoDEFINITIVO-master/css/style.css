@@ -340,6 +340,11 @@ img{
     height: 400px;
     width: 450px;
 }
+#ventajas{
+    width: 1400px;
+    display: block;
+    height: auto;
+}
 
 #divTeamWork{
     margin: 5%;
