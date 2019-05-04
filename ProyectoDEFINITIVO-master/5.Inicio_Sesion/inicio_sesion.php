@@ -50,14 +50,13 @@
     <form class="form-type-send" action='../6.Sesion/sesion.php' method="post">
   <div class="form-group">
     <label for="exampleInputEmail1">Usuario</label>
-    <input type="email" class="form-control" id="correo" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">Ingresa tu cuenta de usuario de forma segura</small>
+    <input type="email" class="form-control" id="correo" name ="correo" aria-describedby="emailHelp" placeholder="Enter email">
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Contraseña</label>
-    <input type="password" class="form-control" id="contrasena" placeholder="Password">
+    <input type="password" class="form-control" id="contrasena" name="contrasena" placeholder="Password">
   </div>
-  <button type="submit" class="btn btn-primary">Ingresar</button>
+  <button type="submit" class="btn btn-primary" value="send">Ingresar</button>
 </form>
 
     <script src= "https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity= "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin= "anonymous" ></script>
