@@ -16,11 +16,11 @@
                 echo "Conectado";
             } else {
                 echo 'Contraseña incorrecta';
-                header('location:../5.inicio_sesion/inicio_sesion.php');
+                //header('location:../5.inicio_sesion/inicio_sesion.php');
             }
         } else {
             echo 'Datos incorrectos';
-            header('location:../5.inicio_sesion/inicio_sesion.php');
+            //header('location:../5.inicio_sesion/inicio_sesion.php');
         }
 
     ?>
