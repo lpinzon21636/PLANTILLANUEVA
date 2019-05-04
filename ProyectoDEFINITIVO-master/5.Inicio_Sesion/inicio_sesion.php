@@ -47,7 +47,7 @@
     </div>
     -->
 
-    <form class="form-type-send" action='sesion.php' method="post">
+    <form class="form-type-send" action='../6.Sesion/sesion.php' method="post">
   <div class="form-group">
     <label for="exampleInputEmail1">Usuario</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
