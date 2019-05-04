@@ -10,8 +10,8 @@
           'santiago@j.com' => '1234', 'natalia' => '4321', 'daniela' => '9876',
         ];
 
-        if (isset($users[$_POST['user']])){
-            if ($users[$_POST['user']]== $_POST['password']){
+        if (isset($users[$_POST['correo']])){
+            if ($users[$_POST['correo']]== $_POST['contrasena']){
                 session_start();
                 echo "Conectado";
             } else {
