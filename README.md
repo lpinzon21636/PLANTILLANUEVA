@@ -23,3 +23,6 @@ Actualizaciones y entrega para el 02 de abril
 
 Imagen de fondo
 https://images.app.goo.gl/gVLbZ89YnLYmM7uj6
+
+Imagen APP
+https://images.app.goo.gl/RJBAEQ7ZdjogsuJK7
