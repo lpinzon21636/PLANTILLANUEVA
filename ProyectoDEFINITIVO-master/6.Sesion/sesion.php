@@ -7,7 +7,7 @@
 <body>
     <?php
         $users = [
-          'santiago' => '1234', 'natalia' => '4321', 'daniela' => '9876',
+          'santiago@j.com' => '1234', 'natalia' => '4321', 'daniela' => '9876',
         ];
 
         if (isset($users[$_POST['user']])){
