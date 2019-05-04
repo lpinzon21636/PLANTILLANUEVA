@@ -7,7 +7,7 @@
 <body>
     <?php
         $users = [
-          'santiago@j.com' => '1234', 'natalia' => '4321', 'daniela' => '9876',
+          'santiago@j.com' => '1234', 'natalia@j.com' => '4321', 'daniela@j.com' => '9876',
         ];
 
         if (isset($users[$_POST['correo']])){
@@ -16,11 +16,11 @@
                 echo "Conectado";
             } else {
                 echo 'Contraseña incorrecta';
-                //header('location:i');
+                header('location:../5.inicio_sesion/iniciosesion.php');
             }
         } else {
             echo 'Datos incorrectos';
-            //header('location:index.php');
+            header('location:../5.inicio_sesion/iniciosesion.php');
         }
 
     ?>
