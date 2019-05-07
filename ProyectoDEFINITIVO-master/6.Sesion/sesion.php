@@ -9,6 +9,8 @@
         $users = [
           'santiago@j.com' => '1234', 'natalia@j.com' => '4321', 'daniela@j.com' => '9876',
         ];
+        $_correo=$_POST['correo'];
+        $_contrasena=$_POST['contrasena'];
 
         if ($_POST['correo']== "" || $_POST['correo']== "") {
             echo "no hay datos";
@@ -17,7 +19,7 @@
         if (isset($users[$_POST['correo']])){
             if ($users[$_POST['correo']]== $_POST['contrasena']){
                 session_start();
-                setcookie($_POST['correo'], $_POST['contrasena'], time()-60);
+                setcookie($_correo, $_contrasena, time()-60);
                 echo "Conectado";
             } else {
                 echo 'Contraseña incorrecta';
