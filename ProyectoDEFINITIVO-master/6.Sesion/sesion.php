@@ -10,7 +10,9 @@
           'santiago@j.com' => '1234', 'natalia@j.com' => '4321', 'daniela@j.com' => '9876',
         ];
 
-        if (isset($users[$_POST['correo']])){
+        if ($_POST['correo']== "" || $_POST['correo']== "") {
+            header('location:../5.inicio_sesion/inicio_sesion.php');
+        } else if (isset($users[$_POST['correo']])){
             if ($users[$_POST['correo']]== $_POST['contrasena']){
                 session_start();
                 echo "Conectado";
