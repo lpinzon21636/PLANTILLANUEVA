@@ -11,7 +11,7 @@
         ];
 
         if ($_POST['correo']== "" || $_POST['correo']== "") {
-            header('location:../5.inicio_sesion/inicio_sesion.php');
+            echo "no hay datos";
         } else if (isset($users[$_POST['correo']])){
             if ($users[$_POST['correo']]== $_POST['contrasena']){
                 session_start();
