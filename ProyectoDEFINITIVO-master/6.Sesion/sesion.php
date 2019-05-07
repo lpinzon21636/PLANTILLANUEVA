@@ -16,10 +16,12 @@
         }
         if (isset($users[$_POST['correo']])){
             if ($users[$_POST['correo']]== $_POST['contrasena']){
-                session_start();
+                /**session_start();
                 setcookie('correo',$_POST['correo'], time()+120);
                 setcookie('contraseña',$_POST['contrasena'], time()+120);
-                echo "Conectado";
+                echo "Conectado";**/
+                setcookie("PHPSESSID", $_COOKIE[session_name()],time()+120);
+                echo "sesion iniciada";
             } else {
                 echo 'Contraseña incorrecta';
                 //header('location:../5.inicio_sesion/inicio_sesion.php');
