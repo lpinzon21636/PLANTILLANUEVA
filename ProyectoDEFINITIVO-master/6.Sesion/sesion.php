@@ -13,7 +13,8 @@
         if ($_POST['correo']== "" || $_POST['correo']== "") {
             echo "no hay datos";
             header('location:inicio_sesion.php');
-        } else if (isset($users[$_POST['correo']])){
+        }
+        if (isset($users[$_POST['correo']])){
             if ($users[$_POST['correo']]== $_POST['contrasena']){
                 session_start();
                 echo "Conectado";
