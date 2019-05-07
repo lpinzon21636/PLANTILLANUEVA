@@ -13,7 +13,7 @@
  <div class="pos-f-t">
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-dark p-4">
-                <h5><a class="nav-link " data-value="proyecto" href="../6.Sesion/4.cocina.html">Interruptor Cocina</a></h5>
+                <h5><a class="nav-link " data-value="proyecto" href="../6.Sesion/4.cocina.php">Interruptor Cocina</a></h5>
                 <h5><a class="nav-link " data-value="proyecto" href="../5.Inicio_Sesion/inicio_sesion.php">Cerrar sesión</a></h5>
             </div>
         </div>
