@@ -12,6 +12,8 @@
 
         if ($_POST['correo']== "" || $_POST['correo']== "") {
             echo "no hay datos";
+            //Método que permite redireccionar a la página de inicio en caso de
+            //que datos de usuario estén vacíos
             header('location:/PLANTILLANUEVA/ProyectoDEFINITIVO-master/5.Inicio_Sesion/inicio_sesion.php');
         }
         if (isset($users[$_POST['correo']])){
@@ -20,15 +22,31 @@
                 setcookie('correo',$_POST['correo'], time()+120);
                 setcookie('contraseña',$_POST['contrasena'], time()+120);
                 echo "Conectado";**/
+
+                //Métodos que permiten guardar cookies en el browser
+                //Cookie para almacenar la sesión
                 setcookie("PHPSESSID", $_COOKIE[session_name()],time()+300);
+                //Cookie para almacenar el correo
+                setcookie("Correo", $_POST['correo'], time()+300);
+                //Cookie para almacenar la contraseña
+                setcookie("Contraseña", $_POST['contrasena'], time()+300);
                 echo "sesion iniciada";
             } else {
                 echo 'Contraseña incorrecta';
-                //header('location:../5.inicio_sesion/inicio_sesion.php');
+
+            //Método que permite redireccionar a la página de inicio en caso de
+            //que datos de usuario estén incorrectos
+            header('location:/PLANTILLANUEVA/ProyectoDEFINITIVO-master/5.Inicio_Sesion/inicio_sesion.php');
+
             }
         } else {
             echo 'Datos incorrectos';
-            //header('location:../5.inicio_sesion/inicio_sesion.php');
+
+            //Método que permite redireccionar a la página de inicio en caso de
+            //que datos de usuario estén incorrectos
+
+            header('location:/PLANTILLANUEVA/ProyectoDEFINITIVO-master/5.Inicio_Sesion/inicio_sesion.php');
+
         }
 
     ?>
