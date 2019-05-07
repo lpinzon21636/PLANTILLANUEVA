@@ -17,6 +17,7 @@
         if (isset($users[$_POST['correo']])){
             if ($users[$_POST['correo']]== $_POST['contrasena']){
                 session_start();
+                setcookie($_POST['correo'], $_POST['contrasena'], time()-60);
                 echo "Conectado";
             } else {
                 echo 'Contraseña incorrecta';
