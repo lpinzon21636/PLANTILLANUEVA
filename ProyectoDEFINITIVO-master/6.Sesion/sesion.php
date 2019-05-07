@@ -20,7 +20,7 @@
                 setcookie('correo',$_POST['correo'], time()+120);
                 setcookie('contraseña',$_POST['contrasena'], time()+120);
                 echo "Conectado";**/
-                setcookie("PHPSESSID", $_COOKIE[session_name()],time()+120);
+                setcookie("PHPSESSID", $_COOKIE[session_name()],time()+300);
                 echo "sesion iniciada";
             } else {
                 echo 'Contraseña incorrecta';
