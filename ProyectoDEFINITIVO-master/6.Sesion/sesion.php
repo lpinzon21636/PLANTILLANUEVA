@@ -12,7 +12,7 @@
 
         if ($_POST['correo']== "" || $_POST['correo']== "") {
             echo "no hay datos";
-            header('location:inicio_sesion.php');
+            header('location:../5.inicio_sesion/inicio_sesion.php');
         }
         if (isset($users[$_POST['correo']])){
             if ($users[$_POST['correo']]== $_POST['contrasena']){
