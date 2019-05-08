@@ -1,0 +1,10 @@
+General -> https://www.w3schools.com/bootstrap/bootstrap_examples.asp
+1. https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_alerts_close&stacked=h
+2. https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_button_group_split&stacked=h
+3. https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_glyphs&stacked=h
+4. https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_button_group_justified2&stacked=h
+5. https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_breadcrumbs&stacked=h
+6. https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_pager_prev&stacked=h
+7. https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_dropdown-menu&stacked=h
+8. https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_media_alignment
+9. https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_scrollspy_affix2&stacked=h
