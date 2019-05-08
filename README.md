@@ -1,6 +1,6 @@
 >README
 
-Actualizaciones y entrega para el 02 de abril
+Actualizaciones y entrega para el 02 de abril de 2019.
 
 -Se hicieron mejoras en las secciones existentes en el prototipo de la página.
 
@@ -26,3 +26,14 @@ https://images.app.goo.gl/gVLbZ89YnLYmM7uj6
 
 Imagen APP
 https://images.app.goo.gl/RJBAEQ7ZdjogsuJK7
+
+Actualizaciones y entrega para el 09 de mayo de 2019.
+
+-Se hizo el cambio de archivos con extensión .html a .php
+
+-Se creo una carpeta nombrada inicio de sesión, en donde se almacena el código correspondiente para que el usuario pueda
+registrar sus datos e inciar sesión. Se apoya del código de bootstrap para generar los campos en donde se ingresará el
+usuario y la contraseña.
+
+- Se genero la carpeta de sesión, en donde existe el archivo sesion que funciona como puente para los otros archivos sala 
+y cocina, que es donde se mostrarán los botones y casas correspondientes al usuario ingresado.

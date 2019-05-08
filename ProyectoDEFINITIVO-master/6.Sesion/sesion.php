@@ -31,6 +31,7 @@
                 //Cookie para almacenar la contraseña
                 setcookie("Contraseña", $_POST['contrasena'], time()+300);
                 header('location:/PLANTILLANUEVA/ProyectoDEFINITIVO-master/6.Sesion/4.cocina.php');
+
             } else {
                 echo 'Contraseña incorrecta';
 
