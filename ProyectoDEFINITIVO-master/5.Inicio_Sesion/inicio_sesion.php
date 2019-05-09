@@ -9,7 +9,12 @@
     <title>Inicio Sesión</title>
 </head>
 <body>
-   <?php session_destroy();?>
+
+   <?php /**
+   *Método que destruye la sesión
+   *en caso de que exista una abierta
+   **/
+    session_destroy();?>
     <!-- NAVBAR -->
     <div class="pos-f-t">
         <div class="collapse" id="navbarToggleExternalContent">

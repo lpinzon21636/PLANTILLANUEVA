@@ -13,7 +13,13 @@
     <title>HomeUser</title>
 </head>
 <body id="body">
-   <?php session_start();?>
+   <?php
+    /**
+    *Método que inicializa la sesión al
+    *momento de validar datos de usuario en página
+    *de validaciones
+    **/
+    session_start();?>
     <!-- NAVBAR -->
     <div class="pos-f-t">
         <div class="collapse" id="navbarToggleExternalContent">
