@@ -30,7 +30,7 @@
                 setcookie("Correo", $_POST['correo'], time()+300);
                 //Cookie para almacenar la contraseña
                 setcookie("Contraseña", $_POST['contrasena'], time()+300);
-                header('location:/PLANTILLANUEVA/ProyectoDEFINITIVO-master/6.Sesion/1.home');
+                header('location:/PLANTILLANUEVA/ProyectoDEFINITIVO-master/6.Sesion/1.home.php');
             } else {
                 echo 'Contraseña incorrecta';
 
