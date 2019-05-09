@@ -39,7 +39,7 @@
             <br>
             <article class="integrantes">
               <h2 class="titleTWO"> Natalia Peñaranda Palacios</h2>
-              <p class="info">Bogotana. Estudiante de Ingeniería de Sistemas de quinto semestre Ln la Universidad EAN, graduación proyectada para el año 2020. Espero realizar una especialización en ciencias de computación o en el desarrollo en sistemas de información, donde se aplique la ingeniería para el aporte, avance y bienestar en las sociedades.Tengo aptitudes en lógica algorítmica, arquitectura de sistemas, programación en Python y Kotlin y especial interés en la investigación científica. He participado en eventos de ingeniería y tecnología tales como: EIEI, FCEI 2017-2018, Microsoft Cloud First Camp, GSF 2018, Colciencias. Mis áreas de interés son: IA, Machine learning, Deep learning, Desarrollo de Sistemas de Información, Realidad AR, VR, MR.</p>
+              <p class="info">Bogotana. Estudiante de Ingeniería de Sistemas de quinto semestre en la Universidad EAN, graduación proyectada para el año 2020. Espero realizar una especialización en ciencias de computación o en el desarrollo en sistemas de información, donde se aplique la ingeniería para el aporte, avance y bienestar en las sociedades.Tengo aptitudes en lógica algorítmica, arquitectura de sistemas, programación en Python y Kotlin y especial interés en la investigación científica. He participado en eventos de ingeniería y tecnología tales como: EIEI, FCEI 2017-2018, Microsoft Cloud First Camp, GSF 2018, Colciencias. Mis áreas de interés son: IA, Machine learning, Deep learning, Desarrollo de Sistemas de Información, Realidad AR, VR, MR.</p>
             </article>
 
             <article class="integrantes">
