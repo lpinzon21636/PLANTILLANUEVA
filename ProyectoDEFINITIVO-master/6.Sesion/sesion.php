@@ -6,44 +6,61 @@
 </head>
 <body>
     <?php
+    /**
+    *Tupla de usuarios
+    **/
         $users = [
           'santiago@j.com' => '1234', 'natalia@j.com' => '4321', 'daniela@j.com' => '9876',
         ];
+    /**
+    *Condicional para validar los usuarios ingresados en el formulario
+    **/
 
         if ($_POST['correo']== "" || $_POST['correo']== "") {
+
             echo "no hay datos";
-            //Método que permite redireccionar a la página de inicio en caso de
-            //que datos de usuario estén vacíos
+            /**
+            * Header permite redireccionar página al index
+            * Si los datos del usuario no fueron escritos
+            **/
             header('location:/PLANTILLANUEVA/ProyectoDEFINITIVO-master/5.Inicio_Sesion/inicio_sesion.php');
         }
         if (isset($users[$_POST['correo']])){
             if ($users[$_POST['correo']]== $_POST['contrasena']){
-                /**session_start();
-                setcookie('correo',$_POST['correo'], time()+120);
-                setcookie('contraseña',$_POST['contrasena'], time()+120);
-                echo "Conectado";**/
-
-                //Métodos que permiten guardar cookies en el browser
-                //Cookie para almacenar la sesión
+                session_start();
+                /**
+                *SetCookies que permite almacenar las cookies en la página web, almacena
+                *el nombre de la sesión
+                **/
                 setcookie("PHPSESSID", $_COOKIE[session_name()],time()+300);
-                //Cookie para almacenar el correo
+                /**
+                *Setcookie que permite almacenar el correo del usuario
+                *en la página web
+                **/
                 setcookie("Correo", $_POST['correo'], time()+300);
-                //Cookie para almacenar la contraseña
+                /**
+                *SetCookie que permite almacenar la contraseña del usuario
+                +en la página web
+                **/
                 setcookie("Contraseña", $_POST['contrasena'], time()+300);
                 header('location:/PLANTILLANUEVA/ProyectoDEFINITIVO-master/6.Sesion/1.home.php');
             } else {
                 echo 'Contraseña incorrecta';
 
-            //Método que permite redireccionar a la página de inicio en caso de
-            //que datos de usuario estén incorrectos
+            /**
+            *Header permite redireccionar la página al index del formulario
+            *si la contraseña de usuario fue incorrecta
+            **/
             header('location:/PLANTILLANUEVA/ProyectoDEFINITIVO-master/5.Inicio_Sesion/inicio_sesion.php');
 
             }
         } else {
             echo 'Datos incorrectos';
 
-            //Método que permite redireccionar a la página de inicio en caso de
-            //que datos de usuario estén incorrectos
+            /**
+            *Header permite redireccionar la página al index del formulario
+            *si los datos ingresados fueron incorrectos
+            **/
 
             header('location:/PLANTILLANUEVA/ProyectoDEFINITIVO-master/5.Inicio_Sesion/inicio_sesion.php');
 
