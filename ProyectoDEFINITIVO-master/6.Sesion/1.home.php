@@ -13,7 +13,7 @@
     <title>HomeUser</title>
 </head>
 <body id="body">
-   <?php require session_start();?>
+   <?php require (isset($_SESSION['user']));?>
     <!-- NAVBAR -->
     <div class="pos-f-t">
         <div class="collapse" id="navbarToggleExternalContent">
