@@ -49,8 +49,6 @@
 										<div class="card-body">
 											<h5 class="card-title">Bombillos</h5>
 											<p class="card-text">Desde aqui usted podrá encender y apagar las luces de la sala. Utilice el interruptor para realizar una acción sobre los bombillos.</p>
-											<h5 class="card-title">Bombillos</h5>
-											<p class="card-text">Desde aqui usted podrá encender y apagar las luces de la sala. Utilice el interruptor para realizar una acción sobre los bombillos.</p>
 											<div align="center" class="custom-control custom-switch">
 												<input type="checkbox" class="custom-control-input" id="customSwitch2">
 												<label class="custom-control-label" for="customSwitch2"></label>
@@ -75,8 +73,6 @@
 									<div class="card" style="width: 18rem; background: none;">
 						  				<img src="../Images/929b3e551fd485386d0fe0a908e03ac8-icono-de-l--mpara-de-mesa-by-vexels.png" class="card-img-top imagen-adaptativa5" alt="...">
 										<div class="card-body">
-											<h5 class="card-title">Lamparas de mesa</h5>
-											<p class="card-text">Controle el estado de on/off de las luces de mesa que tenga en esta área.</p>
 											<h5 class="card-title">Lamparas de mesa</h5>
 											<p class="card-text">Controle el estado de on/off de las luces de mesa que tenga en esta área.</p>
 											<div align="center" class="custom-control custom-switch">
