@@ -131,6 +131,10 @@
 												<label class="custom-control-label" for="customSwitch7"></label>
 											</div>
 										</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                         <div class="card-body">
                             <div class="card" style="width: 18rem;">
@@ -149,10 +153,6 @@
                 </div>
             </div>
         </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </main>
     <script src= "https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity= "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin= "anonymous" ></script> 
