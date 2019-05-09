@@ -161,9 +161,13 @@
     <script>
 		function cambiar() {
 			document.getElementById('body').style.backgroundColor='#636363';
+            <?php
+                setcookie("Interfaz","Dark", time()+300);?>
 		}
 		function cambiar2() {
 			document.getElementById('body').style.backgroundColor='white';
+            <?php
+                setcookie("Interfaz", "Light", time()+300);?>
 
 		}
 	</script>
