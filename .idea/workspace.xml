@@ -22,7 +22,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -47,10 +46,17 @@
               <item name="ProyectoDEFINITIVO-master" type="462c0819:PsiDirectoryNode" />
               <item name="2.acerca_de" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Ecodomotica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ecodomotica" type="462c0819:PsiDirectoryNode" />
+              <item name="ProyectoDEFINITIVO-master" type="462c0819:PsiDirectoryNode" />
+              <item name="3.teamwork" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -73,9 +79,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="domotica.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/ProyectoDEFINITIVO-master/1.que_es_domotica/domotica.php">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="PHP Script.domotica.php" />
@@ -94,16 +97,17 @@
       <updated>1557282949621</updated>
       <workItem from="1557282950817" duration="618000" />
       <workItem from="1557284030819" duration="90000" />
+      <workItem from="1557343532604" duration="157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="708000" />
+    <option name="totallyTimeSpent" value="865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="782" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2569956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
