@@ -9,6 +9,7 @@
     <title>Inicio Sesión</title>
 </head>
 <body>
+   <?php session_destroy();?>
     <!-- NAVBAR -->
     <div class="pos-f-t">
         <div class="collapse" id="navbarToggleExternalContent">

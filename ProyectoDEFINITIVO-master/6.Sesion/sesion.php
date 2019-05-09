@@ -17,7 +17,6 @@
     **/
 
         if ($_POST['correo']== "" || $_POST['correo']== "") {
-
             echo "no hay datos";
             /**
             * Header permite redireccionar página al index
@@ -27,8 +26,6 @@
         }
         if (isset($users[$_POST['correo']])){
             if ($users[$_POST['correo']]== $_POST['contrasena']){
-                session_start();
-                $_SESSION['user']=$user_id;
                 /**
                 *SetCookies que permite almacenar las cookies en la página web, almacena
                 *el nombre de la sesión
