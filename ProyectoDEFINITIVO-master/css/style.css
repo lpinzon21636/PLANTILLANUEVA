@@ -1,5 +1,14 @@
+.card-title{
+  text-align: center;
+  color: #121CB9;
+}
+
 .divInterno{
   margin: 5%;
+}
+
+#body{
+  background-color: white:;
 }
 
 /* default for mobile (Mobile first) */
@@ -429,6 +438,9 @@ img{
     transition:ease;
     transition-duration: 0.5s;
 }
+
+
+
 
 
 .form-type-send {
