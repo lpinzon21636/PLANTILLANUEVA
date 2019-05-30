@@ -5,10 +5,8 @@
     $apellido=$_POST['apellido'];
     $edad=$_POST['edad'];
     $user=$_POST['user'];
-echo $user;
     $password=$_POST['password'];
-echo $password;
-$post="";
+    $post="";
 
     if ($nombre=="" || $apellido=="" || $edad="" || $user="" || $password=="" || $_POST['rol']=="Seleccione un rol"){
 
@@ -27,7 +25,7 @@ $post="";
         } else if ($_POST['rol'] == "Usuario") {
             $post=2;
         }
-        $sql= "INSERT INTO PERSONA (Id_persona,Nombre,Apellido,Edad,Usuario,Contrasena,ROL_Id_Rol) VALUES ('1','".$nombre."','".$apellido."','".$_POST['edad']."','".$_POST['user']."','".$_POST['password']."','".$post."')";
+        $sql= "INSERT INTO PERSONA (Id_persona,Nombre,Apellidos,Edad,Usuario,Contraseña,ROL_Id_Rol) VALUES ('1','".$nombre."','".$apellido."','".$_POST['edad']."','".$_POST['user']."','".$_POST['password']."','".$post."')";
         echo $sql;
 
         if ($conexion->query($sql) === TRUE) {
