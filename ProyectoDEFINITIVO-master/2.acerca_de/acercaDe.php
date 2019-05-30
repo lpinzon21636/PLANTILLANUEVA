@@ -6,14 +6,14 @@
     <link rel= "stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity= "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin= "anonymous" >
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <title>Acerca De</title>
+    <title>Ecodomótica</title>
 </head>
 <body>
     <!-- NAVBAR -->
     <div class="pos-f-t">
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-dark p-4">
-                <h5><a class="nav-link " data-value="proyecto" href="../1.que_es_domotica/domotica.php">Inicio</a></h5>
+                <h5><a class="nav-link " data-value="proyecto" href="../index.php">Inicio</a></h5>
                 <h5><a class="nav-link " data-value="teamwork" href="../3.teamwork/teamwork.php">Equipo de trabajo</a></h5>
                 <h5><a class="nav-link " data-value="contacto" href="../4.contacto/contacto.php">Contacto</a></h5>
                 <h5><a class="nav-link " data-value="teamwork" href="../5.Inicio_Sesion/inicio_sesion.php">Iniciar Sesión</a></h5>

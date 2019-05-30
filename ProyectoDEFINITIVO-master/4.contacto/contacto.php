@@ -13,7 +13,7 @@
     <div class="pos-f-t">
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-dark p-4">
-                <h5><a class="nav-link " data-value="proyecto" href="../1.que_es_domotica/domotica.php">Inicio</a></h5>
+                <h5><a class="nav-link " data-value="proyecto" href="../index.php">Inicio</a></h5>
                 <h5><a class="nav-link " data-value="proyecto" href="../2.acerca_de/acercaDe.php">Acerca De</a></h5>
                 <h5><a class="nav-link " data-value="teamwork" href="../3.teamwork/teamwork.php">Equipo de trabajo</a></h5>
                 <h5><a class="nav-link " data-value="teamwork" href="../5.Inicio_Sesion/inicio_sesion.php">Iniciar Sesión</a></h5>

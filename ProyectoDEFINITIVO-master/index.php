@@ -9,18 +9,18 @@
     <meta name= "viewport" content= "width=device-width, initial-scale=1, shrink-to-fit=no" >
     <link rel= "stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity= "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin= "anonymous" >
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Ecodomótica</title>
 </head>
 <body>
     <!-- NAVBAR -->
     <div class="pos-f-t">
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-dark p-4">
-                <h5><a class="nav-link " data-value="proyecto" href="../2.acerca_de/acercaDe.php">Acerca De</a></h5>
-                <h5><a class="nav-link " data-value="teamwork" href="../3.teamwork/teamwork.php">Equipo de trabajo</a></h5>
-                <h5><a class="nav-link " data-value="contacto" href="../4.contacto/contacto.php">Contacto</a></h5>
-                <h5><a class="nav-link " data-value="teamwork" href="../5.Inicio_Sesion/inicio_sesion.php">Iniciar Sesión</a></h5>
+                <h5><a class="nav-link " data-value="proyecto" href="2.acerca_de/acercaDe.php">Acerca De</a></h5>
+                <h5><a class="nav-link " data-value="teamwork" href="3.teamwork/teamwork.php">Equipo de trabajo</a></h5>
+                <h5><a class="nav-link " data-value="contacto" href="4.contacto/contacto.php">Contacto</a></h5>
+                <h5><a class="nav-link " data-value="teamwork" href="5.Inicio_Sesion/inicio_sesion.php">Iniciar Sesión</a></h5>
             </div>
         </div>
         <nav class="navbar navbar-dark bg-dark">
@@ -86,19 +86,19 @@
                         </ol>
                         <div class="carousel-inner" ba>
                             <div class="carousel-item active">
-                                <img src="../Images/imageIndex1.jpeg" class="imagen-adaptativa2 d-block">
+                                <img src="Images/imageIndex1.jpeg" class="imagen-adaptativa2 d-block">
                             </div>
                             <div class="carousel-item">
-                                <img src="../Images/imageIndex2.jpeg" class="imagen-adaptativa3 d-block">
+                                <img src="Images/imageIndex2.jpeg" class="imagen-adaptativa3 d-block">
                             </div>
                             <div class="carousel-item">
-                                <img src="../Images/imageIndex3.jpeg" class="imagen-adaptativa4 d-block">
+                                <img src="Images/imageIndex3.jpeg" class="imagen-adaptativa4 d-block">
                             </div>
                             <div class="carousel-item">
-                                <img src="../Images/imageIndex4.jpeg" class="imagen-adaptativa4 d-block">
+                                <img src="Images/imageIndex4.jpeg" class="imagen-adaptativa4 d-block">
                             </div>
                             <div class="carousel-item">
-                                <img src="../Images/imageIndex5.jpeg" class="imagen-adaptativa4 d-block">
+                                <img src="Images/imageIndex5.jpeg" class="imagen-adaptativa4 d-block">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
