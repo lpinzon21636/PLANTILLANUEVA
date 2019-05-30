@@ -23,6 +23,7 @@
                 <h5><a class="nav-link " data-value="proyecto" href="../2.acerca_de/acercaDe.php">Acerca De</a></h5>
                 <h5><a class="nav-link " data-value="teamwork" href="../3.teamwork/teamwork.php">Equipo de trabajo</a></h5>
                 <h5><a class="nav-link " data-value="teamwork" href="../4.contacto/contacto.php">Contáctanos</a></h5>
+                <h5><a class="nav-link " data-value="teamwork" href="../7.Registro/registro.php">Registrate</a></h5>
             </div>
         </div>
         <nav class="navbar navbar-dark bg-dark">

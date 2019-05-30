@@ -16,6 +16,7 @@
                 <h5><a class="nav-link " data-value="proyecto" href="../index.php">Inicio</a></h5>
                 <h5><a class="nav-link " data-value="teamwork" href="../3.teamwork/teamwork.php">Equipo de trabajo</a></h5>
                 <h5><a class="nav-link " data-value="contacto" href="../4.contacto/contacto.php">Contacto</a></h5>
+                <h5><a class="nav-link " data-value="teamwork" href="../7.Registro/registro.php">Registrate</a></h5>
                 <h5><a class="nav-link " data-value="teamwork" href="../5.Inicio_Sesion/inicio_sesion.php">Iniciar Sesión</a></h5>
             </div>
         </div>
