@@ -1,15 +1,8 @@
 <?php
-    $server='localhost';
-    $user='santiago';
-    $contra='santiago';
-    $db='ecodomotica';
-
-    $conexion= new mysqli($server,$user,$contra,$db);
-
-    if ($conexion -> conect_errno){
-        echo 'No hay conexion';
+    $conexion= new mysqli('localhost','santiago','santiago','ecodomotica');
+    if($conexion -> connect_errno){
+        echo 'no hay conexion';
     } else {
-        echo 'si hay conexion';
+        echo 'conectado';
     }
-
 ?>

@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <title>Ecodomótica</title>
 </head>
-<body style="background-color: RGB(101,132,184);">
+<body style="background-color: RGB(150,150,150);">
     <!-- NAVBAR -->
     <div class="pos-f-t">
         <div class="collapse" id="navbarToggleExternalContent">
