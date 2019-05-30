@@ -5,7 +5,7 @@
     <title>Sesión</title>
 </head>
 <body>
-    <?php
+<!--    < ? php
     /**
     *Tupla de usuarios
     **/
@@ -64,6 +64,7 @@
 
         }
 
-    ?>
+    ?> -->
+    <?php include('conexionDB/conexion.php'); ?>
 </body>
 </html>

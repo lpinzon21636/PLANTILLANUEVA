@@ -24,7 +24,7 @@
             </div>
         </div>
         <nav class="navbar navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Inicio</a>
+            <a class="navbar-brand" href="#">ECODOMOTICA</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -33,8 +33,8 @@
     <main>
         <div>
             <div class="divInterno">
-                <h1 align="center">Bienvenido a Ecodomótica</h1>
-                <p>Acá encontraras una nueva manera de gestionar el consumo de electricidad en tu hogar.</p>
+                <h1 align="center">Ecodomótica</h1>
+                <p class="Encabezado">Acá encontraras una nueva manera de gestionar el consumo de electricidad en tu hogar.</p>
                 <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="headingOne">
