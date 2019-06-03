@@ -33,28 +33,26 @@
             </button>
         </nav>
     </div>
-    <!--
-    <div>
-        <br>
-        <center><h3 id="boton_domotica">Prueba ecodomótica</h3></center>
-        <br>
-    </div>
-    <div>
-        <center>
 
-            <img src="../Images/Power_Button-512.png" id="interruptor" class="apagado">
-        </center>
-    </div>
+    <?php
+        /**
+        * Código PHP para validar que los datos ingresados
+        * no estén vacíos y correspondan a los datos almacenados
+        * en la base de datos
+        **/
+        $correo=$_POST['correo'];
+        $contrasena=$_POST['contrasena'];
 
-    <div>
-        <center>
-            <h1 id=estado_boton>Estado:</h1>
-            <h3 id='estado'></h3>
-        </center>
-    </div>
-    -->
+        if (isset($correo)) {
+            if ($correo=="" || $contrasena=="") {
+                echo "<div class='form-type-send'><h5>Datos no validos</h5></div>";
+            } else {
 
-    <form class="form-type-send" action='../6.Sesion/sesion.php' method="post">
+            }
+        }
+    ?>
+
+    <form class="form-type-send" action="../6.Sesion/sesion.php" method="post">
   <div class="form-group">
     <label for="exampleInputEmail1">Usuario</label>
     <input type="email" class="form-control" id="correo" name ="correo" aria-describedby="emailHelp" placeholder="Enter email">

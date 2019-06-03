@@ -31,8 +31,7 @@
 
     <!-- Formulario -->
 
-
-      <form class="form-type-send" action='sesionR.php' method="post">
+      <form class="form-type-send" action="sesionR.php" method="post">
            <div class="form-group">
              <label for="exampleInputEmail1">Nombre</label>
              <input type="text" class="form-control" id="nombre" name ="nombre" aria-describedby="emailHelp" placeholder="Ingrese su nombre">
