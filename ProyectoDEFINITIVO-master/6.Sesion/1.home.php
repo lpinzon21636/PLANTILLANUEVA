@@ -1,4 +1,4 @@
-<title>home</title>
+<title>Interruptores</title>
    <?php include('templantes/header.php');?>
     <main>
         <div style="margin-left:5%; margin-top:5%; margin-right:5%; background: none;">
