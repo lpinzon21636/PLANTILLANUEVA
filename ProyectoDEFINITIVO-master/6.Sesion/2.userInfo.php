@@ -1,3 +1,2 @@
 <?php include('templantes/header.php');?>
-</body>
-</html>
+<?php include('templantes/footer.php')?>
