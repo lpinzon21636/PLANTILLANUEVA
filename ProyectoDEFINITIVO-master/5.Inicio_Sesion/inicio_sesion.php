@@ -55,11 +55,11 @@
     <form class="form-type-send" action="../6.Sesion/sesion.php" method="post">
   <div class="form-group">
     <label for="exampleInputEmail1">Usuario</label>
-    <input type="email" class="form-control" id="correo" name ="correo" aria-describedby="emailHelp" placeholder="Enter email">
+    <input type="email" class="form-control" id="correo" name ="correo" aria-describedby="emailHelp" placeholder="Enter email" required>
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Contraseña</label>
-    <input type="password" class="form-control" id="contrasena" name="contrasena" placeholder="Password">
+    <input type="password" class="form-control" id="contrasena" name="contrasena" placeholder="Password" required>
   </div>
   <button type="submit" class="btn btn-primary" value="send">Ingresar</button>
 </form>
