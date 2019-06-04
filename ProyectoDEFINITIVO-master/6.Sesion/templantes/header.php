@@ -25,10 +25,14 @@
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-dark p-4">
                 <h5><a class="nav-link " data-value="teamwork" href="../5.Inicio_Sesion/inicio_sesion.php">Salir</a></h5>
+                <h5><a class="nav-link " data-value="teamwork" href="1.home.php">Interruptores</a></h5>
+                <h5><a class="nav-link " data-value="teamwork" href="2.userInfo.php">Información del usuario</a></h5>
+                <h5><a class="nav-link " data-value="teamwork" href="3.INFOPREDIO.php">Información del predio</a></h5>
+                <h5><a class="nav-link " data-value="teamwork" href="4.NOTIFICACIONES.php">Notificaciones</a></h5>
             </div>
         </div>
         <nav class="navbar navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">INTERRUPTORES</a>
+            <a class="navbar-brand" href="#">ECODOMOTICA APP</a>
             <button onclick="cambiar();">Dark</button>
 			<button onclick="cambiar2();">Light</button>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">

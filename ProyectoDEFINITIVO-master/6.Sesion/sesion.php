@@ -9,7 +9,6 @@
         echo '</script>';
     } else {
         $sql="SELECT * FROM PERSONA WHERE Usuario='".$_POST['correo']."' AND Contrasena='".$_POST['contrasena']."'";
-        echo $sql;
         $result = mysqli_query($conexion,$sql);
         if (mysqli_num_rows($result) == 0) {
             echo '<script language="javascript">';
@@ -20,12 +19,11 @@
             echo '</script>';
         } else {
             echo '<script language="javascript">';
-            echo 'alert("Bienvenido")';  //not showing an alert box.
+            echo 'alert("Bienvenido")';
             echo '</script>';
             echo '<script language="javascript">';
             echo 'window.location.href="1.home.php";';
             echo '</script>';
         }
-
     }
 ?>
