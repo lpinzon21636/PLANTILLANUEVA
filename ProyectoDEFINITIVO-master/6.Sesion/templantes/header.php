@@ -29,6 +29,7 @@
                 <h5><a class="nav-link " data-value="teamwork" href="2.userInfo.php">Información del usuario</a></h5>
                 <h5><a class="nav-link " data-value="teamwork" href="3.INFOPREDIO.php">Información del predio</a></h5>
                 <h5><a class="nav-link " data-value="teamwork" href="4.NOTIFICACIONES.php">Notificaciones</a></h5>
+                <h5><a class="nav-link " data-value="teamwork" href="5.Facturas.php">Facturas</a></h5>
             </div>
         </div>
         <nav class="navbar navbar-dark bg-dark">
