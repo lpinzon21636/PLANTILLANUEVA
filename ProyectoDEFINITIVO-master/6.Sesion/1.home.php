@@ -1,4 +1,5 @@
-<?php include('templantes/header.php');?>
+<title>home</title>
+   <?php include('templantes/header.php');?>
     <main>
         <div style="margin-left:5%; margin-top:5%; margin-right:5%; background: none;">
     		<div class="accordion" id="accordionExample" style="background: none;">
