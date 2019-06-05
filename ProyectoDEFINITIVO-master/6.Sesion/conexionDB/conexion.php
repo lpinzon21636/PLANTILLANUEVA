@@ -1,3 +1,3 @@
 <?php
-    $conexion= new mysqli('localhost','santiago','santiago','ecodomotica');
+    $conexion= new mysqli('localhost','ecodomotica','ecodomotica','ecodomotica');
 ?>
