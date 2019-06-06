@@ -26,10 +26,13 @@
             <div class="bg-dark p-4">
                 <h5><a class="nav-link " data-value="teamwork" href="../5.Inicio_Sesion/inicio_sesion.php">Salir</a></h5>
                 <h5><a class="nav-link " data-value="teamwork" href="1.home.php">Interruptores</a></h5>
-                <h5><a class="nav-link " data-value="teamwork" href="2.userInfo.php">Información del usuario</a></h5>
+                <!-- 2.userInfo.php -->
+                <h5><a class="nav-link " data-value="teamwork" href="#">Información del usuario</a></h5>
                 <h5><a class="nav-link " data-value="teamwork" href="3.INFOPREDIO.php">Información del predio</a></h5>
-                <h5><a class="nav-link " data-value="teamwork" href="4.NOTIFICACIONES.php">Notificaciones</a></h5>
-                <h5><a class="nav-link " data-value="teamwork" href="5.Facturas.php">Facturas</a></h5>
+                <!-- 4.NOTIFICACIONES.php -->
+                <h5><a class="nav-link " data-value="teamwork" href="#">Notificaciones</a></h5>
+                <!-- 5.Facturas.php -->
+                <h5><a class="nav-link " data-value="teamwork" href="#">Facturas</a></h5>
             </div>
         </div>
         <nav class="navbar navbar-dark bg-dark">

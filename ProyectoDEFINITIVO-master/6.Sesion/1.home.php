@@ -1,5 +1,9 @@
 <title>Interruptores</title>
    <?php include('templantes/header.php');?>
+   <?php include('conexionDB/conexion.php')?>
+   <div>
+
+   </div>
     <main>
         <div style="margin-left:5%; margin-top:5%; margin-right:5%; background: none;">
     		<div class="accordion" id="accordionExample" style="background: none;">
@@ -21,8 +25,48 @@
 											<h5 class="card-title">Bombillos</h5>
 											<p class="card-text">Desde aqui usted podrá encender y apagar las luces de la sala. Utilice el interruptor para realizar una acción sobre los bombillos.</p>
 											<div align="center" class="custom-control custom-switch">
-												<input type="checkbox" class="custom-control-input" id="customSwitch2">
+											    <form name="form1" action="estado/estado.php" method="post">
+											    <?php
+                                                    /**
+                                                    *
+                                                    * Sentencia SQL para invocar la información correspondiente
+                                                    * al predio por medio del uso de cookies
+                                                    *
+                                                    **/
+                                                    $sql1="SELECT * FROM PREDIO WHERE PERSONA_Id_persona='".$_COOKIE['id_persona']."'";
+
+                                                    $result1=mysqli_query($conexion,$sql1);
+                                                    $Pred=mysqli_fetch_array($result1);
+                                                    $idPred=$Pred['Id_Predio'];
+                                                    /**
+                                                    *
+                                                    * Sentencia SQL para invocar las zonas correspondientes al predio
+                                                    * y poder generar el cambio de estado
+                                                    *
+                                                    **/
+                                                    $sql2="SELECT * FROM ZONAS WHERE PREDIO_Id_Predio='".$idPred."' AND Nombre_area='Sala'";
+                                                    $result2=mysqli_query($conexion,$sql2);
+                                                    $estado=mysqli_fetch_array($result2);
+
+                                                    /**
+                                                    *
+                                                    * Condicional que evalúa el estado de las luces e
+                                                    * imprime el correspondiente input para hacer notorio si el interruptor
+                                                    * está encendido o apagado
+                                                    *
+                                                    **/
+                                                    if ($estado['Estado_luz'] == 0) {
+
+                                                        echo '<input type="checkbox" name="cajita" class="custom-control-input" id="customSwitch2">';
+                                                    } else {
+                                                        echo '<input type="checkbox" name="cajita" class="custom-control-input" id="customSwitch2" checked>';
+                                                    }
+                                                ?>
+
 												<label class="custom-control-label" for="customSwitch2"></label>
+											    <button id="sendForm" type="submit" class="btn btn-primary" value="send">Actualizar</button>
+											    </form>
+
 											</div>
 										</div>
 									</div>
@@ -31,7 +75,7 @@
 									<div class="card" style="width: 18rem; background: none;">
 						  				<img src="../Images/2357c06358cde99.jpg" class="card-img-top imagen-adaptativa5" alt="...">
 										<div class="card-body">
-											<h5 class="card-title">Puertas</h5>
+											<h5 class="card-title">Puertas [PROXIMAMENTE]</h5>
 											<p class="card-text">Controle las puertas de la sala, abralas o cierrelas desde el interrumptor.</p>
 											<div align="center" class="custom-control custom-switch">
 												<input type="checkbox" class="custom-control-input" id="customSwitch3">
@@ -44,7 +88,7 @@
 									<div class="card" style="width: 18rem; background: none;">
 						  				<img src="../Images/929b3e551fd485386d0fe0a908e03ac8-icono-de-l--mpara-de-mesa-by-vexels.png" class="card-img-top imagen-adaptativa5" alt="...">
 										<div class="card-body">
-											<h5 class="card-title">Lamparas de mesa</h5>
+											<h5 class="card-title">Lamparas de mesa [PROXIMAMENTE]</h5>
 											<p class="card-text">Controle el estado de on/off de las luces de mesa que tenga en esta área.</p>
 											<div align="center" class="custom-control custom-switch">
 												<input type="checkbox" class="custom-control-input" id="customSwitch4">
@@ -76,8 +120,47 @@
 									        <h5 class="card-title">Bombillos</h5>
 									        <p class="card-text">Desde aqui usted podrá encender y apagar las luces del comedor. Utilice el interruptor para realizar una acción sobre los bombillos.</p>
 									        <div align="center" class="custom-control custom-switch">
-								        		<input type="checkbox" class="custom-control-input" id="customSwitch5">
+									            <form name="from2" action="estado/estadoDOS.php" method="post">
+									            <?php
+                                                    /**
+                                                    *
+                                                    * Sentencia SQL para invocar la información correspondiente
+                                                    * al predio por medio del uso de cookies
+                                                    *
+                                                    **/
+                                                    $sqlUNO="SELECT * FROM PREDIO WHERE PERSONA_Id_persona='".$_COOKIE['id_persona']."'";
+
+                                                    $resultUNO=mysqli_query($conexion,$sqlUNO);
+                                                    $Predio=mysqli_fetch_array($resultUNO);
+                                                    $idPredio=$Predio['Id_Predio'];
+                                                    /**
+                                                    *
+                                                    * Sentencia SQL para invocar las zonas correspondientes al predio
+                                                    * y poder generar el cambio de estado
+                                                    *
+                                                    **/
+                                                    $sqlDOS="SELECT * FROM ZONAS WHERE PREDIO_Id_Predio='".$idPredio."' AND Nombre_area='Comedor'";
+                                                    $resultDOS=mysqli_query($conexion,$sqlDOS);
+                                                    $estadoUNO=mysqli_fetch_array($resultDOS);
+
+                                                    /**
+                                                    *
+                                                    * Condicional que evalúa el estado de las luces e
+                                                    * imprime el correspondiente input para hacer notorio si el interruptor
+                                                    * está encendido o apagado
+                                                    *
+                                                    **/
+                                                    if ($estadoUNO['Estado_luz'] == 0) {
+
+                                                        echo '<input type="checkbox" name="cajitaDOS" class="custom-control-input" id="customSwitch5">';
+                                                    } else {
+                                                        echo '<input type="checkbox" name="cajitaDOS" class="custom-control-input" id="customSwitch5" checked>';
+                                                    }
+                                                ?>
+
 										        <label class="custom-control-label" for="customSwitch5"></label>
+											    <button id="sendFormDOS" type="submit" class="btn btn-primary" value="send">Actualizar</button>
+                                                </form>
                                             </div>
 								        </div>
 							        </div>
@@ -87,7 +170,7 @@
 									<div class="card" style="width: 18rem; background: none;">
 						  				<img src="../Images/2357c06358cde99.jpg" class="card-img-top imagen-adaptativa5" alt="...">
 										<div class="card-body" style="background: none;">
-											<h5 class="card-title">Puertas</h5>
+											<h5 class="card-title">Puertas [PROXIMAMENTE]</h5>
 											<p class="card-text">Controle las puertas del comedor, abralas o cierrelas desde el interrumptor.</p>
 											<div align="center" class="custom-control custom-switch">
 												<input type="checkbox" class="custom-control-input" id="customSwitch6">
@@ -100,7 +183,7 @@
 									<div class="card" style="width: 18rem; background: none;">
 						  				<img src="../Images/929b3e551fd485386d0fe0a908e03ac8-icono-de-l--mpara-de-mesa-by-vexels.png" class="card-img-top imagen-adaptativa5" alt="...">
 										<div class="card-body" style="background: none;">
-											<h5 class="card-title">Lamparas de mesa</h5>
+											<h5 class="card-title">Lamparas de mesa [PROXIMAMENTE]</h5>
 									<p class="card-text">Desde aqui usted podrá encender y apagar las luces del comedor. Utilice el interruptor para realizar una acción sobre las lámparas.</p>
 											<div align="center" class="custom-control custom-switch">
 												<input type="checkbox" class="custom-control-input" id="customSwitch7">

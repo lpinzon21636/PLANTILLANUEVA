@@ -11,7 +11,7 @@
     if ($nombre=="" || $apellido=="" || $edad="" || $user="" || $password=="" || $_POST['rol']=="Seleccione un rol"){
 
         echo '<script language="javascript">';
-        echo 'alert("Datos incorrectos o incompletos")';  //not showing an alert box.
+        echo 'alert("Datos incorrectos o incompletos")';
         echo '</script>';
 
         echo '<script language="javascript">';
@@ -26,12 +26,22 @@
             $post=2;
         }
         $sql= "INSERT INTO PERSONA (Nombre,Apellidos,Edad,Usuario,Contrasena,ROL_Id_Rol) VALUES ('".$nombre."','".$apellido."','".$_POST['edad']."','".$_POST['user']."','".$_POST['password']."','".$post."')";
-        echo $sql;
+
 
         if ($conexion->query($sql) === TRUE) {
-            echo "Usuario creado";
+            echo '<script language="javascript">';
+            echo 'alert("Registro completo")';
+            echo '</script>';
+            echo '<script language="javascript">';
+            echo 'window.location.href="registro.php";';
+            echo '</script>';
         } else {
-            echo "Error: " . $sentenciaSQL . "<br>" . $conexion->error;
+            echo '<script language="javascript">';
+            echo 'alert("Error")';
+            echo '</script>';
+            echo '<script language="javascript">';
+            echo 'window.location.href="registro.phph";';
+            echo '</script>';
         }
 
         $conexion ->close();
